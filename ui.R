@@ -13,7 +13,7 @@ shinyUI(
     
     #header
     dashboardHeader(title = "Apple Store",
-                    tags$li(class="dropdown",tags$a(href="https://github.com/aagarw30/R-Shiny-Dashboards/tree/main/USArrestDashboard", icon("github"), "Source Code", target="_blank")),
+                    tags$li(class="dropdown",tags$a(href="https://github.com/vinay-git2412/AppleStore-Shinyapp.git", icon("github"), "Source Code", target="_blank")),
                     
                     # Dropdown menu for tasks, with progress bar
                     dropdownMenu(type = "tasks", badgeStatus = "danger",
